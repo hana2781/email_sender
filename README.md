@@ -48,19 +48,19 @@ To get started with the Email Sender Console Application, follow these steps:
    git clone https://github.com/yourusername/email-sender-console.git
 
 2. **Change appsettings.json**
-```
-{
-    "MailSettings": {
-        "SmtpServer": "smtp.gmail.com",
-        "SmtpPort": 587,
-        "Username": "your@mail.com",
-        "Password": "Password"
-    }
-}
-```
+   ```
+   {
+       "MailSettings": {
+           "SmtpServer": "smtp.gmail.com",
+           "SmtpPort": 587,
+           "Username": "your@mail.com",
+           "Password": "Password"
+       }
+   }
+   ```
 3. **Run Application**
-```bash 
-dotnet run
-```
+   ```bash 
+   dotnet run
+   ```
 
     
